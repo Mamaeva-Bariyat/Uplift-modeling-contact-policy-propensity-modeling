@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models & outputs (keep structure, ignore large files if needed)
+# models/*.joblib
+# outputs/*
+!outputs/.gitkeep
+!models/.gitkeep
+!figures/.gitkeep
+
+# Optuna
+optuna.db
+*.db
+
+# Secrets
+.env
+*.key
